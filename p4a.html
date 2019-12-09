@@ -1,0 +1,14 @@
+<script>
+var input=prompt("enter a digit");
+input=input.toLowerCase();
+var len=input.length;
+for(var i =0;i<len;i++)
+{
+var ch=input.charAt(i);
+if(ch=="a"||ch=="e"||ch=="i"||ch=="o"||ch=="u")
+{
+document.write(i+1);
+break;
+}
+}
+</script>
